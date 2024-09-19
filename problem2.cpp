@@ -9,12 +9,15 @@ int main() {
     cin>>raining;
 
     if(winter==1) {
-        if (raining==1)
-            cout<<"Bus";
-        else
-            cout<<"Bike";
-    }else
-            cout<<"Walk";
+        cout<<"Bus";
+        }else if(raining==1){
+        cout<<"Walk";
+            }else {
+                cout<<"Bike";
+            }
+
+
+
 return 0;
     }
 
